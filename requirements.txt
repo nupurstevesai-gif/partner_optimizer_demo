@@ -1,6 +1,6 @@
 streamlit==1.52.2
 groq
-pinecone-client
+pinecone
 sentence-transformers
 python-dotenv
 torch
