@@ -1,0 +1,7 @@
+streamlit==1.52.2
+groq
+pinecone-client
+sentence-transformers
+python-dotenv
+torch
+numpy
