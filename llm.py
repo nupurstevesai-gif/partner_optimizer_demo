@@ -46,15 +46,6 @@ def format_context(chunks):
         formatted += f"Context {i} (source: {c['source']}): {c['text']}"
     return formatted.strip()
 
-
-#  FORMAT CONTEXT 
-def format_context(chunks):
-    formatted = ""
-    for i, c in enumerate(chunks, 1):
-        formatted += f"Context {i} (source: {c['source']}): {c['text']}"
-    return formatted.strip()
-
-
 #  LLM ANSWER 
 def answer_query(user_query):
     chunks = retrieve_context(user_query)
